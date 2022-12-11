@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tabuada DNC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="logo_dnc_transparente.png"  width="100">
+    <h1> Tabuada Matemática </h1>
+    </header>
+    <section>
+        <div>
+          <p>
+            <b>Qual tabuada você desejar ver na tabuada?</b><br>
+            <input type="number" class="form" id="num">
+          </p>
+          <p>
+            <b>Até que número você desejar ir?</b><br>
+            <input type="number" class="form" id="end">
+          </p>
+           <p>
+              <input type="button" value="Calcular" id="botao" onclick="Tabuada()">
+            </p>
+        </div>
+        <div id="resposta">
+            <b>Preenchar os valores acima.</b>
+        </div>
+    </section>
+    <script src="tabuada_script.js"></script>
+</body>
+</html>
